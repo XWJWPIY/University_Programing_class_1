@@ -1,0 +1,178 @@
+頭:AKLG
+尾:TAG
+
+測:AKLG TTTTT AKLG TT TAG
+
+解答
+1. TTTTT AKLG TT (11)
+2. TT (2)
+
+顯示:
+TTTTTTAKLGTT
+
+
+
+頭:AKLG
+尾:TAG
+
+測:AKLG TTTTTT AKLG TT TAG
+
+1. TTTTTT AKLG TT (12)(不合)
+2. TT (2)
+
+TTTTTT AKLG TT 與 TT (12,2)(但12)
+
+顯示:
+TT
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG AKLG TAG TAG
+
+顯示:
+no gene
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG AKLG AKLG TAG TAG TAG
+
+顯示:
+no gene
+
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG AKLG AKLG TAG TAG
+
+顯示:
+no gene
+
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG AKLG TAG TAG TAG
+
+顯示:
+no gene
+
+
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG AKLG T TAG TAG TAG
+
+顯示:
+AKLGT
+
+
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG AKLG TAG TAG TAG
+
+顯示:
+no gene
+
+
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG AKLG T TAG TAG TAG
+
+顯示:
+AKLGT
+
+
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG AKLG T TAG TTT TAG
+
+顯示:
+AKLGT
+
+
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG T AKLG TAG TTT TAG
+
+顯示:
+TAKLG
+
+
+
+
+頭:AKLG
+尾:TAG
+測:AKLG T AKLG TT TAG TTT TAG
+
+顯示:
+TAKLGTT
+
+
+
+
+
+(頭判斷不合規定狀況(A**G中間不合(not in E~T)))
+頭:AAAG
+尾:TAA
+測:AAAGTTTTAA
+
+顯示:
+no gene
+
+
+頭:AEZG
+尾:TAA
+測:AEZGTTTTAA
+
+顯示:
+no gene
+
+
+
+(頭判斷不合規定狀況(A**G頭尾不合))
+頭:BAAG
+尾:TAA
+測:BAAGTTTTAA
+
+顯示:
+no gene
+
+
+頭:AAAB
+尾:TAA
+測:AAABTTTTAA
+
+顯示:
+no gene
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+name = input()
+student_id = int(input())
+chinese = int(input())
+computer = int(input())
+coding = int(input())
+
+print("Name:%s"%name)
+print("ID:%d"%student_id)
+print("Average:%d"%int((chinese + computer + coding)/3))
+print("Total:%d"%(chinese + computer + coding))
