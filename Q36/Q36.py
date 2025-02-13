@@ -62,12 +62,16 @@ def func():
     break_points = input()
     if (break_points.count(' ') > 0):
         break_points = break_points.split(' ')
+        while ("" in break_points):
+            break_points.remove("")
         for i in range(len(break_points)):
             break_points[i] = int(break_points[i])
     else:
         break_points = [int(break_points)]
     for i in range(n):
         temp = input().split(' ')
+        while ("" in temp):
+            temp.remove("")
         temp[0] = int(temp[0])
         temp[1] = int(temp[1])
         if (not (temp[0] in dictionary)):
@@ -79,7 +83,7 @@ def func():
     
     show_break_points, ans = get_min_distance(dictionary, start, end, break_points)
     if (ans == "No"):
-        print("No")
+        print("NO")
     else:
         print(show_break_points)
         print(ans)

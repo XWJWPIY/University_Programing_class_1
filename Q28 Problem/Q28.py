@@ -39,10 +39,11 @@ print(d_reverse)
 counter = 0
 for i in range(len(c)):
     if (counter == 0):
-        if (c[i] != " "):
-            c_removed += c[i]
-        elif (len(c_removed) > 0 and c_removed[-1] != " "):
-            c_removed += c[i]
+        # if (c[i] != " "):
+        #     c_removed += c[i]
+        # elif (len(c_removed) > 0 and c_removed[-1] != " "):
+        #     c_removed += c[i]
+        c_removed += c[i]
     counter = (counter + 1) % n
 
 print(c_removed)
